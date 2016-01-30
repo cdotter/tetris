@@ -184,7 +184,7 @@ for i in range(0,42):
 
 '''
     Pass other working coord sets (dropped_coords, rotated_coords, slid_coords) to collision_check()
-    DON'T append coords if collision is found for rotate/slide AND the coord still has room to fall;
+    Don't append coords if collision is found for rotate/slide AND the coord still has room to fall;
         instead, disallow rotate/slide but let it continue to fall until there is no more room
     
     Flatten game_pieces by default so no need for reduced_game_pieces in row_clear_check().
